@@ -1,0 +1,13 @@
+name: OuchMyBones
+version: ${project.version}
+main: com.miketheshadow.ouchmybones.OuchMyBones
+api-version: 1.16
+authors: [ MikeTheShadow ]
+description: Simple RP injury plugin
+website: MikeTheShadow.ca
+commands:
+  injure:
+    description: Get and set injuries of players
+    usage: /<injury>
+    permission: OuchMyBones.admin
+    permission-message: You don't have OuchMyBones.basic permission
